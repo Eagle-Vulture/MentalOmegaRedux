@@ -1,0 +1,523 @@
+[MultiMaps]
+
+;2-player
+201=CRWS0007;	Blood Feud (2)
+202=CRWS0010;	Deadman's Ridge (2)
+203=DEEZ15MD;	Double Trouble (2)
+204=CRBLWS01;	Dueling Islands (2)
+205=CANNIS03;	OverExtended (2) by Cannis
+206=CANNIS01;	Switchback Ravine (2) by Cannis
+207=CANNIS02;	Switchback Ridge (2) by Cannis
+208=CRWS0011;	Twin Peaks (2)
+
+;3-player
+301=CANNIS04;	Frigid Triangle (2-3) by Cannis
+302=CANNIS05;	Frigid Triangle NightOps (2-3) by Cannis
+303=CRWS0001;	Top o' the Hill (2-3)
+
+;4-player
+401=MIR4DR03;	4 PACK (2-4) by Mir4dor
+402=CRWS0008;	Austin, TX (2-4)
+403=CANNIS16;	CrissCross (2-4) by Cannis
+404=CRWS0009;	Death Valley Girl (2-4)
+405=DEEZ19MD;	Depth Charge (2-4)
+406=CANNIS11;	Gem Pit II (2-4) by Cannis
+407=CANNIS14;	Inversion (2-4) by Cannis
+408=CRWS0002;	Isle Of Oades (2-4)
+409=MIR4DR12;	Jericho (2-4) by Mir4dor
+410=CANNIS10;	Moonlit Bay (2-4) by Cannis
+411=DZWS0001;	Pit Or Plateau (2-4)
+412=MIR4DR01;	Quarterpounder (2-4) by Mir4dor
+413=CAPMEL01;	Rest & Relaxation (2-4) by CaptnMel
+414=MIR4DR05;	Scars (2-4) by Mir4dor
+415=CANNIS09;	Sunstroke (2-4) by Cannis
+416=CAPMEL03;	Total Destruction (2-4) by CaptnMel
+417=EJAH01;	Tunnel Vision (2-4) by EJAH
+418=MIR4DR09;	U-Turn (2-4) by Mir4dor
+419=MIR4DR02;	War Paint (2-4) by Mir4dor
+
+;5-player
+501=CRWS0003;	Mount Rush More (2-5)
+502=MIR4DR11;	Passing the 5th Side (2-5) by Mir4dor
+
+;6-player
+601=CRDZWS01;	A River Runs Near It (2-6)
+602=CANNIS08;	Amazon Assault (2-6) by Cannis
+603=CRWS0004;	Bay of Pigs (2-6)
+604=CRWS0005;	East vs. Best (2-6)
+605=CANNIS07;	Field & Stream (2-6) by Cannis
+606=CANNIS12;	FreezeOut (2-6) by Cannis
+607=CAPMEL02;	General Quarters (2-6) by CaptnMel
+608=DEEZ21MD;	Narrow River (2-6)
+609=CRWS0006;	Sedona Pass (2-6)
+610=MIR4DR10;	Six Holes (2-6) by Mir4dor
+611=MIR4DR06;	Snowdog (2-6) by Mir4dor
+
+;7-player
+701=CANNIS15;	Stacked Odds (2-7) by Cannis
+
+;8-player
+801=DEEZ14MD;	Arctic Circle (2-8)
+802=MIR4DR08;	Bacchus Plateau (2-8) by Mir4dor
+803=MIR4DR04;	Panacea (2-8) by Mir4dor
+804=DEEZ17MD;	Official Tournament Map (8)
+805=CANNIS13;	OutGrowth (2-8) by Cannis
+806=MIR4DR07;	Subdivisions (2-8) by Mir4dor
+
+
+
+
+
+;******
+;Cannis
+;******
+
+;Switchback Ravine (2) by Cannis
+[CANNIS01]
+Description=DESC:CANNIS01
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;Switchback Ridge (2) by Cannis
+[CANNIS02]
+Description=DESC:CANNIS02
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;OverExtended (2) by Cannis
+[CANNIS03]
+Description=DESC:CANNIS03
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;Frigid Triangle (2-3) by Cannis
+[CANNIS04]
+Description=DESC:CANNIS04
+CD=0
+MinPlayers=2
+MaxPlayers=3
+GameMode=assault
+
+;Frigid Triangle NightOps (2-3) by Cannis
+[CANNIS05]
+Description=DESC:CANNIS05
+CD=0
+MinPlayers=2
+MaxPlayers=3
+GameMode=assault
+
+;Field & Stream (2-6) by Cannis
+[CANNIS07]
+Description=DESC:CANNIS07
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault
+
+;Amazon Assault (2-6) by Cannis
+[CANNIS08]
+Description=DESC:CANNIS08
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=teamassault
+
+;Sunstroke (2-4) by Cannis
+[CANNIS09]
+Description=DESC:CANNIS09
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=teamassault
+
+;Moonlit Bay (2-4) by Cannis
+[CANNIS10]
+Description=DESC:CANNIS10
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;Gem Pit II (2-4) by Cannis
+[CANNIS11]
+Description=DESC:CANNIS11
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;FreezeOut (2-6) by Cannis
+[CANNIS12]
+Description=DESC:CANNIS12
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;OutGrowth (2-8) by Cannis
+[CANNIS13]
+Description=DESC:CANNIS13
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault,teamassault
+
+;Inversion (2-4) by Cannis
+[CANNIS14]
+Description=DESC:CANNIS14
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;Stacked Odds (2-7) by Cannis
+[CANNIS15]
+Description=DESC:CANNIS15
+CD=0
+MinPlayers=2
+MaxPlayers=7
+GameMode=teamassault
+
+;CrissCross (2-4) by Cannis
+[CANNIS16]
+Description=DESC:CANNIS16
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+
+
+
+;********
+;CaptnMel
+;********
+
+;Rest & Relaxation (2-4) by CaptnMel
+[CAPMEL01]
+Description=DESC:CAPMEL01
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;General Quarters (2-6) by CaptnMel
+[CAPMEL02]
+Description=DESC:CAPMEL02
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;Total Destruction (2-4) by CaptnMel
+[CAPMEL03]
+Description=DESC:CAPMEL03
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+
+
+;****
+;EJAH
+;****
+
+;Tunnel Vision (2-4) by EJAH
+[EJAH01]
+Description=DESC:EJAH01
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault,teamassault
+
+
+
+;*******
+;Mir4dor
+;*******
+
+;Quarterpounder (2-4) by Mir4dor
+[MIR4DR01]
+Description=DESC:MIR4DR01
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;War Paint (2-4) by Mir4dor
+[MIR4DR02]
+Description=DESC:MIR4DR02
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;4 PACK (2-4) by Mir4dor
+[MIR4DR03]
+Description=DESC:MIR4DR03
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;Panacea (2-8) by Mir4dor
+[MIR4DR04]
+Description=DESC:MIR4DR04
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault,teamassault
+
+;Scars (2-4) by Mir4dor
+[MIR4DR05]
+Description=DESC:MIR4DR05
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault,teamassault
+
+;Snowdog (2-6) by Mir4dor
+[MIR4DR06]
+Description=DESC:MIR4DR06
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;Subdivisions (2-8) by Mir4dor
+[MIR4DR07]
+Description=DESC:MIR4DR07
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault,teamassault
+
+;Bacchus Plateau (2-8) by Mir4dor
+[MIR4DR08]
+Description=DESC:MIR4DR08
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault,teamassault
+
+;U-Turn (2-4) by Mir4dor
+[MIR4DR09]
+Description=DESC:MIR4DR09
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;Six Holes (2-6) by Mir4dor
+[MIR4DR10]
+Description=DESC:MIR4DR10
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;Passing the 5th Side (2-5) by Mir4dor
+[MIR4DR11]
+Description=DESC:MIR4DR11
+CD=0
+MinPlayers=2
+MaxPlayers=5
+GameMode=assault,teamassault
+
+;Jericho (2-4) by Mir4dor
+[MIR4DR12]
+Description=DESC:MIR4DR12
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+
+
+;***************************
+;Official RA2/YR Conversions
+;***************************
+
+;converted by Cannis
+;Top o' the Hill (2-3)
+[CRWS0001]
+Description=NAME:TopOTheHill
+CD=0
+MinPlayers=2
+MaxPlayers=3
+GameMode=teamassault
+
+;converted by Cannis
+;Isle Of Oades (2-4)
+[CRWS0002]
+Description=NAME:Oades
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;converted by Cannis
+;Mount Rush More (2-5)
+[CRWS0003]
+Description=NAME:MntRush
+CD=0
+MinPlayers=2
+MaxPlayers=5
+GameMode=teamassault
+
+;converted by Cannis
+;Bay of Pigs (2-6)
+[CRWS0004]
+Description=NAME:WEEK35
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;converted by Cannis
+;East vs. Best (2-6)
+[CRWS0005]
+Description=NAME:EastVsBest
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=teamassault
+
+;converted by Cannis
+;Sedona Pass (2-6)
+[CRWS0006]
+Description=NAME:SedonaPass
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;converted by Cannis
+;Blood Feud (2)
+[CRWS0007]
+Description=NAME:BldFeud
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;converted by Cannis
+;Austin, TX (2-4)
+[CRWS0008]
+Description=NAME:Austin
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault,teamassault
+
+;converted by Cannis
+;Death Valley Girl (2-4)
+[CRWS0009]
+Description=NAME:ValGirl
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=teamassault
+
+;converted by Cannis
+;Deadman's Ridge (2)
+[CRWS0010]
+Description=NAME:WEEK38
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;converted by Cannis
+;Twin Peaks (2)
+[CRWS0011]
+Description=Name:2Peaks
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;converted by DeeZire
+;Arctic Circle (2-8)
+[DEEZ14MD]
+Description=DESC:MP22S8
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault
+
+;converted by DeeZire
+;Official Tournament Map (8)
+[DEEZ17MD]
+Description=NAME:TOURNEY3
+CD=0
+MinPlayers=2
+MaxPlayers=8
+GameMode=assault,teamassault
+
+;converted by DeeZire
+;Depth Charge (2-4)
+[DEEZ19MD]
+Description=DESC:MP10S4
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+
+
+;************************
+;Tiberian Sun Conversions
+;************************
+
+;converted by DeeZire
+;Double Trouble (2)
+[DEEZ15MD]
+Description=DESC:MP15DZ
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault
+
+;converted by DeeZire
+;Narrow River (2-6)
+[DEEZ21MD]
+Description=DESC:MP21DZ
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;converted by DeeZire
+;Pit Or Plateau (2-4)
+[DZWS0001]
+Description=DESC:DZWS0001
+CD=0
+MinPlayers=2
+MaxPlayers=4
+GameMode=assault
+
+;converted by DeeZire & Cannis
+;A River Runs Near It (2-6)
+[CRDZWS01]
+Description=DESC:CRDZWS01
+CD=0
+MinPlayers=2
+MaxPlayers=6
+GameMode=assault,teamassault
+
+;converted by Blade & Cannis
+;Dueling Islands (2)
+[CRBLWS01]
+Description=DESC:CRBLWS01
+CD=0
+MinPlayers=2
+MaxPlayers=2
+GameMode=assault

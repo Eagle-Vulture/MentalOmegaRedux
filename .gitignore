@@ -1,0 +1,34 @@
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore CI/CD folders
+_Test
+Build
+
+# Ignore any .csf file in MIX folders
+Source/MIX/*/*.csf
+
+# Ignore log, config etc. user created files.
+Source/CLIENT/spawnmap.ini
+Source/CLIENT/spawn.ini
+Source/CLIENT/except.txt
+Source/CLIENT/ra2md.ini
+Source/CLIENT/keyboardmd.ini
+Source/CLIENT/ddraw.dll
+Source/CLIENT/ddraw.ini
+Source/CLIENT/libwine.dll
+Source/CLIENT/wined3d.dll
+Source/CLIENT/dxwnd.dll
+Source/CLIENT/dxwnd.ini
+Source/CLIENT/aqrit.cfg
+Source/CLIENT/syringe.log
+Source/CLIENT/stats.dmp
+Source/CLIENT/debug/
+Source/CLIENT/Client/
+Source/CLIENT/Map Editor/FinalAlert.ini
+Source/CLIENT/Map Editor/RA2Tmp.csf
+Source/CLIENT/Map Editor/FinalAlert2Log.txt
+Source/CLIENT/Map Editor/syringe.log
+Source/CLIENT/Saved Games/*.sav
+Source/CLIENT/Screenshots/
+Source/CLIENT/Resources/MainMenuTheme.bak
