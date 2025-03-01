@@ -73,3 +73,4 @@ Read more about license: https://creativecommons.org/licenses/by-nc/4.0/legalcod
 | YuriPrime      | Voxels, sprites, ini-code        |
 | ppap11404      | VFX sprites                      |
 | Holland        | Building sprites                 |
+| SMxReaver      | Tile sprites                     |
