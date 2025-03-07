@@ -42,7 +42,7 @@ There are 2 ways to download mod:
 
 ## Legal
 
-This project has no direct affiliation with Electronic Arts Inc. Command & Conquer, Command & Conquer Red Alert 2, Command & Conquer Yuri's Revenge are registered trademarks of Electronic Arts Inc. All Rights Reserved.
+EA has not endorsed and does not support this product. Command & Conquer, Command & Conquer Red Alert 2, Command & Conquer Yuri's Revenge are registered trademarks of Electronic Arts Inc. All Rights Reserved.
 
 Mentalmeisters is original authors of Mental Omega: Almost Perfect Yuri's Revenge. All Rights Reserved.
 
