@@ -6179,3 +6179,33 @@ STT:MULTIENGINEER|Multiple engineers required to capture a building.
 GUI:PLAYMISSION|Play Mission
 TXT_RELEASE_NOTE|Mental Omega Redux: MO 2.0psi Ares Edition
 LOADBRIEF:NORTHKOREA|SPECIAL UNIT: Iron Dragon - Due to the geopolitical situation, North Koreans expanded Iron Curtain technology. Iron Dragon is an artillery unit, which fires uncontrolled energy bails. Breaking bonds between atoms, they destroy units easily.\nSPECIAL TACTIC: Base Expansion - Structures build time -25%\nVETERAN UNITS: Scud Launcher, Crazy Ivan, Infector Tank
+NAME:T72B|T-72B
+NAME:T55|T-55
+NAME:IRONHEART|Iron Lizard
+NAME:T90|T-90
+NAME:SOVBSHARK|Black Shark
+NAME:SOVSHEN|Shen Gunship
+NAME:SOVGRAD|Grad Launcher
+NAME:STINK|Stink Sprayer
+NAME:F22|F-22 Raptor
+NAME:CHENGDU|Chengdu Fighter 
+NAME:YAGRANDCAN|Flower Cannon
+NAME:CAWEAP|Tech War Factory
+NAME:CAAIRS|Tech Aircraft pod
+NAME:CAAIRP|Tech Airfield
+NAME:YURITIGER|Tiger Tank
+NAME:GHUM|Humvee
+NAME:TIGR|Tigr Antitank
+NAME:BRADLEY|M2 Bradley
+NAME:BMP2|BMP-2 APC
+NAME:CGTECHMGUN|Tech Machinegun
+NAME:CGTECHSAM|Tech SAM Launcher
+NAME:CGTECHRAIL|Tech Railgun Tower
+NAME:PERUN|Perun Flagship
+NAME:YURIIRKALLA|Aerial Fortress Irkalla
+NAME:CIVBUGGY|Desert Patroler
+NAME:HIJACKER|Hijacker
+NAME:ARCHER|Archer
+NAME:STORMLT|Storm Light Tank
+NAME:JTNK|Jaguar Battle Tank
+NAME:QTNK|Qilin Assault Tank
