@@ -336,7 +336,7 @@ TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
 [01000041]
-0=1,LTNK
+0=1,YuriT72B
 Name=LasherTest
 Group=-1
 
@@ -723,7 +723,7 @@ AreTeamMembersRecruitable=no
 
 [01000111]
 0=2,MIND
-1=4,LTNK
+1=4,YuriT72B
 Name=Mastermind
 Group=-1
 
@@ -4397,10 +4397,10 @@ DestroyableBridges=yes
 26=YuriCountry House,SQD,256,122,171,64,Area Guard,None,0,-1,0,-1,1,0
 27=YuriCountry House,SQD,256,131,161,64,Area Guard,None,0,-1,0,-1,1,0
 28=YuriCountry House,SQD,256,120,144,64,Area Guard,None,0,-1,0,-1,1,0
-29=YuriCountry House,LTNK,256,102,142,0,Area Guard,None,0,-1,0,-1,1,0
-30=YuriCountry House,LTNK,256,84,170,0,Area Guard,None,0,-1,0,-1,1,0
-31=YuriCountry House,LTNK,256,61,196,0,Area Guard,None,0,-1,0,-1,1,0
-32=YuriCountry House,LTNK,256,87,204,32,Area Guard,None,0,-1,0,-1,1,0
+29=YuriCountry House,YuriT72B,256,102,142,0,Area Guard,None,0,-1,0,-1,1,0
+30=YuriCountry House,YuriT72B,256,84,170,0,Area Guard,None,0,-1,0,-1,1,0
+31=YuriCountry House,YuriT72B,256,61,196,0,Area Guard,None,0,-1,0,-1,1,0
+32=YuriCountry House,YuriT72B,256,87,204,32,Area Guard,None,0,-1,0,-1,1,0
 33=YuriCountry House,GUNB,256,108,167,32,Area Guard,None,0,-1,0,-1,1,0
 34=YuriCountry House,YTNK,256,95,153,0,Area Guard,None,0,-1,0,-1,1,0
 35=YuriCountry House,YTNK,256,85,160,128,Area Guard,None,0,-1,0,-1,1,0
@@ -4429,7 +4429,7 @@ DestroyableBridges=yes
 58=China House,SovRepair,256,152,37,64,Guard,None,0,-1,0,-1,1,0
 59=China House,SovRepair,256,155,37,64,Guard,None,0,-1,0,-1,1,0
 60=China House,KAMAZ,256,148,37,64,Guard,None,0,-1,0,-1,1,0
-61=China House,LTNK2,256,150,31,32,Guard,None,0,-1,0,-1,1,0
+61=China House,YuriT72B2,256,150,31,32,Guard,None,0,-1,0,-1,1,0
 62=China House,HCAN,256,139,34,160,Guard,None,0,-1,0,-1,1,0
 63=China House,PALADIN,256,160,40,128,Guard,None,0,-1,0,-1,1,0
 64=China House,PALADIN,256,140,37,160,Guard,None,0,-1,0,-1,1,0

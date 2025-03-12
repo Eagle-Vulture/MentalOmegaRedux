@@ -199,8 +199,9 @@ ParentCountry=YuriCountry
 
 [01000024]
 0=1,YHVR
-1=2,DEV
-2=2,ytnk
+1=1,DEV
+2=1,Stink
+3=2,ytnk
 Name=Transport1
 Group=-1
 
