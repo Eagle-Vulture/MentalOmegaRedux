@@ -61,7 +61,7 @@ CarryOverCap=0
 NewINIFormat=4
 NextScenario=
 SkipMapSelect=no
-CarryOverMoney=0.000000
+CarryOverMoney=0
 AltNextScenario=
 MultiplayerOnly=0
 IceGrowthEnabled=yes
@@ -1876,6 +1876,18 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
+
+[Germansns House]
+IQ=
+Edge=
+Color=
+Allies=
+Country=
+Credits=
+NodeCount=
+TechLevel=
+PercentBuilt=
+PlayerControl=
 
 [Germany House]
 IQ=5
@@ -4002,24 +4014,24 @@ PlayerControl=no
 2018=kBZSgpAGZJAdW3AmQAxyHEIowFCGUAxwBdAAAAAQAAEQAA
 
 [Lighting]
-Red=0.800000
-Blue=0.900000
-Green=0.800000
+Red=0.8
+Blue=0.9
+Green=0.8
 Level=0.008000
 Ground=0.050000
-IonRed=0.300000
-Ambient=0.750000
-IonBlue=0.750000
-IonGreen=0.400000
-IonLevel=0.000000
-IonGround=0.000000
+IonRed=0.3
+Ambient=0.75
+IonBlue=0.75
+IonGreen=0.4
+IonLevel=0
+IonGround=0
 IonAmbient=0.620000
 DominatorRed=0.850000
-DominatorBlue=0.300000
-DominatorGreen=0.200000
-DominatorLevel=0.000000
-DominatorGround=0.000000
-DominatorAmbient=1.500000
+DominatorBlue=0.3
+DominatorGreen=0.2
+DominatorLevel=0
+DominatorGround=0
+DominatorAmbient=1.5
 DominatorAmbientChangeRate=0.001000
 
 [Map]
@@ -4117,7 +4129,7 @@ UnderParMessage=GUI:UnderParMsgSov02md
 [Russians House]
 IQ=0
 Edge=North
-Color=Soviet
+Color=SovietArab
 Allies=Russians House,Neutral House
 Country=Russians
 Credits=0
@@ -4553,6 +4565,11 @@ DestroyableBridges=yes
 55=YuriCountry House,YuriTechni,256,66,74,32,Guard,None,0,-1,0,-1,1,0
 56=YuriCountry House,YuriTechni,256,64,69,64,Guard,None,0,-1,0,-1,1,0
 57=YuriCountry House,YuriTechni,256,67,61,64,Guard,None,0,-1,0,-1,1,0
+58=YuriCountry House,YuriQCan,256,100,148,96,Guard,None,0,-1,0,-1,1,0
+59=YuriCountry House,YuriQCan,256,89,154,96,Guard,None,0,-1,0,-1,1,0
+60=YuriCountry House,YuriQCan,256,81,149,160,Guard,None,0,-1,0,-1,1,0
+61=YuriCountry House,YuriQCan,256,72,113,64,Guard,None,0,-1,0,-1,1,0
+62=YuriCountry House,YuriQCan,256,63,102,32,Guard,None,0,-1,0,-1,1,0
 
 [UriArmy House]
 IQ=5
@@ -4627,7 +4644,7 @@ PlayerControl=no
 [YuriCountry House]
 IQ=5
 Edge=North
-Color=YuriUnit
+Color=YuriAfrica
 Allies=YuriCountry House,Neutral House
 Country=YuriCountry
 Credits=100

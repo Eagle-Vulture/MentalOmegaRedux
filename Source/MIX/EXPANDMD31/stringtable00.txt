@@ -6210,3 +6210,4 @@ NAME:STORMLT|Storm Light Tank
 NAME:JTNK|Jaguar Battle Tank
 NAME:QTNK|Qilin Assault Tank
 NAME:Ar_HTNK|Scorpion Tank
+Name:YuriQCan|Quad Cannon

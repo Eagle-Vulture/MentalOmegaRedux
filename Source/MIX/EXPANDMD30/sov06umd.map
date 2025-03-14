@@ -4516,7 +4516,7 @@ PlayerControl=no
 [YuriCountry House]
 IQ=5
 Edge=North
-Color=YuriUnit
+Color=YuriIndia
 Allies=YuriCountry House
 Country=YuriCountry
 Credits=250
