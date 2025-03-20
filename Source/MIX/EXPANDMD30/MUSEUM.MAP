@@ -288,6 +288,10 @@ ParentCountry=YuriCountry
 38=YuriCountry House,PDPLANE2,256,123,176,64,Sleep,None,0,0,1,0
 39=YuriCountry House,PDPLANE6,256,127,176,64,Sleep,None,0,0,1,0
 40=YuriCountry House,PDPLANE,256,127,180,64,Sleep,None,0,0,1,0
+41=YuriCountry House,BEAG,256,74,155,64,Guard,None,0,0,1,0
+42=YuriCountry House,BEAG,256,74,157,64,Guard,None,0,0,1,0
+43=YuriCountry House,BEAG,256,79,155,64,Guard,None,0,0,1,0
+44=YuriCountry House,BEAG,256,79,157,64,Guard,None,0,0,1,0
 
 [Alliance House]
 IQ=5
@@ -5940,6 +5944,7 @@ DestroyableBridges=yes
 374=Neutral House,CA_afcity11,256,34,165,64,None,1,0,1,0,0,None,None,None,0,0
 375=Neutral House,CA_afcity12,256,39,165,64,None,1,0,1,0,0,None,None,None,0,0
 376=Neutral House,CA_afcity13,256,39,160,64,None,1,0,1,0,0,None,None,None,0,0
+377=YuriCountry House,GAHLPAD,256,74,154,64,None,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,AI Auto Production America House,01000000

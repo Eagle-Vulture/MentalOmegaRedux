@@ -240,6 +240,9 @@ TechLevel=-1
 [TERROR]
 Prerequisite=NAHAND,NARADR
 
+[TankDropSpecial]
+ForbiddenHouses=PsiCorps House
+
 [UriArmy]
 Name=UriArmy
 Side=ThirdSide
@@ -4557,6 +4560,8 @@ DestroyableBridges=yes
 112=YuriCountry House,YuriTiger,256,60,58,160,Guard,None,0,-1,0,-1,1,0
 113=YuriCountry House,YuriTiger,256,103,98,128,Guard,None,0,-1,0,-1,1,0
 114=YuriCountry House,YuriTiger,256,125,94,128,Guard,None,0,-1,0,-1,1,0
+115=China House,SovHokum,256,55,27,64,Guard,None,555,-1,0,-1,1,0
+116=China House,SovHokum,256,63,32,160,Guard,None,555,-1,0,-1,1,0
 
 [UriArmy House]
 IQ=5
@@ -4653,7 +4658,7 @@ PlayerControl=no
 [YuriCountry House]
 IQ=5
 Edge=North
-Color=Yuri
+Color=YuriIndia
 Allies=YuriCountry House,UriArmy House
 Country=YuriCountry
 Credits=250
