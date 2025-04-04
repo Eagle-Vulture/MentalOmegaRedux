@@ -4328,7 +4328,7 @@ PlayerControl=no
 [YuriCountry House]
 IQ=0
 Edge=North
-Color=Yuri
+Color=YuriAlt
 Allies=YuriCountry House
 Country=YuriCountry
 Credits=100
