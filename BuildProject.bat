@@ -7,7 +7,7 @@ set MIX=Tools\ccmix.exe
 set CSFTOOL=Tools\CSFTool.exe
 
 : Удаление ранее скомпилированной папки
-rmdir /s /q Build
+rmdir /s /q Build > nul 2> nul
 mkdir Build
 
 echo Компилирование строкой таблицы...
