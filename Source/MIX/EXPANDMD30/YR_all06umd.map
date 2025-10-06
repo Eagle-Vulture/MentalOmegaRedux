@@ -201,8 +201,8 @@ OverParTitle=GUI:ParTitleAll12
 OverParMessage=GUI:OverParMsgAll06md
 
 [Basic]
-NextScenario=GDI2A.map
-AltNextScenario=GDI9C.MAP
+NextScenario= ; GDI2A.map
+AltNextScenario= ; GDI9C.MAP
 NewINIFormat=4
 CarryOverCap=0
 EndOfGame=no
