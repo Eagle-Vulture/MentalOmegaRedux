@@ -145,6 +145,9 @@ ProduceCashDelay=500
 ProduceCashAmount=150
 
 [NAMISL]
+Power=0
+Unsellable=yes
+RevealToAll=yes
 Strength=50
 
 [NAPSYA]

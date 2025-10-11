@@ -6060,7 +6060,7 @@ DestroyableBridges=yes
 29=YuriCountry House,CNTR,256,112,184,64,Sleep,None,0,-1,0,-1,1,0
 30=YuriCountry House,MWF,256,114,187,64,Sleep,None,0,-1,0,-1,1,0
 31=YuriCountry House,SMCV,256,114,189,64,Sleep,None,0,-1,0,-1,1,0
-32=YuriCountry House,LTNK,256,137,215,64,Sleep,None,0,-1,0,-1,1,0
+32=YuriCountry House,LTNK,256,137,213,64,Sleep,None,0,-1,0,-1,1,0
 33=YuriCountry House,SMIN,256,137,217,64,Sleep,None,0,-1,0,-1,1,0
 34=YuriCountry House,YTNK,256,137,219,64,Sleep,None,0,-1,0,-1,1,0
 35=YuriCountry House,TRIKE,256,137,221,64,Sleep,None,0,-1,0,-1,1,0
@@ -6451,6 +6451,7 @@ DestroyableBridges=yes
 420=YuriCountry House,YuriQCan,256,159,153,64,Sleep,None,0,-1,0,-1,1,0
 421=YuriCountry House,YuriQCan,256,163,156,64,Sleep,None,0,-1,0,-1,1,0
 422=YuriCountry House,YuriQCan,256,159,156,64,Sleep,None,7777,-1,0,-1,1,0
+423=YuriCountry House,SMIN_AF,256,137,215,64,Sleep,None,0,-1,0,-1,1,0
 
 [UriArmy House]
 IQ=5
