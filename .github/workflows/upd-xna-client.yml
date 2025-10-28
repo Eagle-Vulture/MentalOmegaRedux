@@ -17,6 +17,8 @@ jobs:
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v3
+      with:
+        lfs: true
     
     - name: Configure Git Repo
       run: |
@@ -25,7 +27,7 @@ jobs:
         git branch -d ${{ env.UPDATE_BRANCH_NAME }}
         git checkout -b ${{ env.UPDATE_BRANCH_NAME }}
     
-    - name: Download latest XNA client release
+    - name: Download Latest Release
       uses: robinraju/release-downloader@v1
       with:
         repository: CnCNet/xna-cncnet-client
@@ -39,23 +41,12 @@ jobs:
         7z x xna-cncnet-client-*.7z -y -oD:\a\${{ env.REPO_NAME }}\${{ env.REPO_NAME }}\Source\CLIENT
         rm xna-cncnet-client-*.7z
 
-    - name: Check For Changes
-      id: check_changes
-      run: |
-        if (git status --porcelain) {
-          echo "changed=true" >> $env:GITHUB_ENV
-        } else {
-          echo "changed=false" >> $env:GITHUB_ENV
-        }
-    
     - name: Commit And Push Branch
-      if: env.changed == 'true'
       run: |
         git commit -am "${{ env.COMMIT_MESSAGE }}"
         git push --force origin ${{ env.UPDATE_BRANCH_NAME }}
 
     - name: Open PR
-      if: env.changed == 'true'
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
