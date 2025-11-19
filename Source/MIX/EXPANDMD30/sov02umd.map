@@ -287,7 +287,8 @@ PercentAtMax=.2
 Power=0
 Unsellable=yes
 RevealToAll=yes
-Strength=50
+Strength=20
+Armor=wood
 
 [NAPSIS]
 DetectDisguise=yes
