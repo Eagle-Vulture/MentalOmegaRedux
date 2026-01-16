@@ -41,6 +41,9 @@ jobs:
         echo "Current client version: '$currentVersion'"
         echo "Downloaded client version: '$downloadVersion'"
 
+        echo "Current client version: '$currentVersion'"
+        echo "Downloaded client version: '$downloadVersion'"
+
         if ($currentVersion -eq $downloadVersion)
         {
           echo "Update is not required"
