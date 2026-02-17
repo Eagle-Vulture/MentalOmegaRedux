@@ -1,0 +1,27 @@
+name: Build Project
+
+on: 
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+
+    # Compile it via shitty .bat file
+    - name: Compile Project
+      shell: cmd
+      run: BuildProject.bat
+
+    # Upload artifact to the GitHub
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: MOR-${{github.sha}}
+        path: Build/**
