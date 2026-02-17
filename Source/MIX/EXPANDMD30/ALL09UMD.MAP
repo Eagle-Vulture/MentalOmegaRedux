@@ -326,16 +326,18 @@ AreTeamMembersRecruitable=no
 
 [01000041]
 0=1,DRED
-1=2,SovHokum
-2=2,PELI
-3=2,DISK
+1=1,VLAD
+2=2,SovHokum
+3=2,PELI
+4=2,DISK
 Name=Dreadnought
 Group=-1
 
 [01000042]
 0=1,CARRIER
-1=10,LUNR
-2=10,JUMPJET
+1=1,COM_CARRIER
+2=10,LUNR
+3=10,JUMPJET
 Name=AircraftCarrier
 Group=-1
 
@@ -4004,9 +4006,9 @@ DestroyableBridges=yes
 214=YuriCountry House,YAINVISB,256,94,36,64,None,1,0,1,0,0,None,None,None,1,0
 215=YuriCountry House,DEPILUS,256,30,107,64,None,1,0,1,0,0,None,None,None,0,0
 216=YuriCountry House,YAINVISB,256,36,119,64,None,1,0,1,0,0,None,None,None,1,0
-221=YuriCountry House,YAREFN,256,57,67,64,None,1,0,1,0,0,None,None,None,0,0
-222=YuriCountry House,YAREFN,256,42,89,64,None,1,0,1,0,0,None,None,None,0,0
-223=YuriCountry House,YAREFN,256,38,128,64,None,1,0,1,0,0,None,None,None,0,0
+221=YuriCountry House,YAREFN_AF,256,57,67,64,None,1,0,1,0,0,None,None,None,0,0
+222=YuriCountry House,YAREFN_AF,256,42,89,64,None,1,0,1,0,0,None,None,None,0,0
+223=YuriCountry House,YAREFN_AF,256,38,128,64,None,1,0,1,0,0,None,None,None,0,0
 224=YuriCountry House,NANRCT,256,33,121,64,None,1,0,1,0,0,None,None,None,1,0
 225=YuriCountry House,YAPOWR,256,88,115,64,None,1,0,1,0,0,None,None,None,1,0
 226=YuriCountry House,YAPOWR,256,83,100,64,None,1,0,1,0,0,None,None,None,1,0

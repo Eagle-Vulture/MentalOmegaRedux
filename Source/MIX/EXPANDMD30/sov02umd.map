@@ -197,13 +197,22 @@ ParentCountry=Germany
 
 [Greece]
 Name=Greece
-Side=GDI
-Color=AlliedLoad
+Side=Nod
+Color=YuriUnit
 Prefix=G
-Suffix=Allied
+Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Greece
+
+[CMON]
+TechLevel = -1
+
+[CMiN]
+TechLevel = -1
+
+[HARV]
+Owner = Russians,Confederation,Germans,NorthKorea,China,Grece
 
 [Headquaters]
 Name=Headquaters
@@ -363,7 +372,7 @@ ParentCountry=Special
 
 [UriArmy]
 Name=UriArmy
-Side=ThirdSide
+Side=Nod
 Color=ThirdLoad
 Prefix=B
 Suffix=Soviet
@@ -376,7 +385,7 @@ CanBeOccupied=no
 
 [YuriCountry]
 Name=YuriCountry
-Side=ThirdSide
+Side=Nod
 Color=YuriUnit
 Prefix=B
 Suffix=Soviet
