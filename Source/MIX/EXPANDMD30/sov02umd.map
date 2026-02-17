@@ -197,22 +197,13 @@ ParentCountry=Germany
 
 [Greece]
 Name=Greece
-Side=Nod
-Color=YuriUnit
+Side=GDI
+Color=AlliedLoad
 Prefix=G
-Suffix=Soviet
+Suffix=Allied
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Greece
-
-[CMON]
-TechLevel = -1
-
-[CMiN]
-TechLevel = -1
-
-[HARV]
-Owner = Russians,Confederation,Germans,NorthKorea,China,Grece
 
 [Headquaters]
 Name=Headquaters
@@ -296,8 +287,7 @@ PercentAtMax=.2
 Power=0
 Unsellable=yes
 RevealToAll=yes
-Strength=20
-Armor=wood
+Strength=50
 
 [NAPSIS]
 DetectDisguise=yes
@@ -372,7 +362,7 @@ ParentCountry=Special
 
 [UriArmy]
 Name=UriArmy
-Side=Nod
+Side=ThirdSide
 Color=ThirdLoad
 Prefix=B
 Suffix=Soviet
@@ -385,7 +375,7 @@ CanBeOccupied=no
 
 [YuriCountry]
 Name=YuriCountry
-Side=Nod
+Side=ThirdSide
 Color=YuriUnit
 Prefix=B
 Suffix=Soviet

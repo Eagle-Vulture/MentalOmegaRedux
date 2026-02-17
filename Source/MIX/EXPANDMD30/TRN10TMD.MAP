@@ -242,6 +242,9 @@ SmartAI=yes
 CostUnitsMult=1
 ParentCountry=Russians
 
+[SMIN]
+RequiredHouses=Headquaters
+
 [Scorpion]
 Name=Scorpion
 Side=ThirdSide
@@ -4013,9 +4016,9 @@ DestroyableBridges=yes
 216=YuriCountry House,YAINVISB,256,36,119,64,None,1,0,1,0,0,None,None,None,1,0
 218=YuriCountry House,YAINVIS,256,130,84,64,None,1,0,1,0,0,None,None,None,1,0
 220=YuriCountry House,YAINVIS,256,67,102,64,None,1,0,1,0,0,None,None,None,1,0
-221=YuriCountry House,YAREFN_AF,256,57,67,64,None,1,0,1,0,0,None,None,None,0,0
-222=YuriCountry House,YAREFN_AF,256,42,89,64,None,1,0,1,0,0,None,None,None,0,0
-223=YuriCountry House,YAREFN_AF,256,38,128,64,None,1,0,1,0,0,None,None,None,0,0
+221=YuriCountry House,YAREFN,256,57,67,64,None,1,0,1,0,0,None,None,None,0,0
+222=YuriCountry House,YAREFN,256,42,89,64,None,1,0,1,0,0,None,None,None,0,0
+223=YuriCountry House,YAREFN,256,38,128,64,None,1,0,1,0,0,None,None,None,0,0
 224=YuriCountry House,NANRCT,256,33,121,64,None,1,0,1,0,0,None,None,None,1,0
 225=YuriCountry House,YAPOWR,256,88,115,64,None,1,0,1,0,0,None,None,None,1,0
 226=YuriCountry House,YAPOWR,256,83,100,64,None,1,0,1,0,0,None,None,None,1,0
