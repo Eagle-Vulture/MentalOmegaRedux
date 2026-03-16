@@ -469,9 +469,10 @@ AreTeamMembersRecruitable=no
 
 [01000073]
 0=1,CARRIER
-1=1,DEST
-2=1,DLPH
-3=1,PELI
+1=1,COM_CARRIER
+2=1,DEST
+3=1,DLPH
+4=2,PELI
 Name=Carrier
 Group=-1
 

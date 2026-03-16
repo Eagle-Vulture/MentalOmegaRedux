@@ -121,9 +121,6 @@ ROF=10
 Range=8
 Damage=125
 
-[YAINVIS]
-TechLevel=11
-
 [NEGLAMP]
 Name=Negative Light Post
 Image=GALITE
@@ -169,6 +166,9 @@ TechLevel=-1
 
 [Vinifera]
 Value=50
+
+[YAINVIS]
+TechLevel=11
 
 [YARAIL]
 Power=-10
@@ -4140,10 +4140,10 @@ DestroyableBridges=no
 4=BadGuy3 House,YARAIL,256,119,118,64,None,1,0,1,0,0,None,None,None,1,0
 5=BadGuy1 House,YAACID,256,111,115,192,None,1,0,1,0,0,None,None,None,1,0
 6=BadGuy1 House,YAACID,256,116,110,0,None,1,0,1,0,0,None,None,None,1,0
-7=BadGuy3 House,TESLA,256,113,125,64,None,1,0,1,0,0,None,None,None,0,0
-8=BadGuy3 House,TESLA,256,113,119,64,None,1,0,1,0,0,None,None,None,0,0
-9=BadGuy3 House,TESLA,256,120,112,64,None,1,0,1,0,0,None,None,None,0,0
-10=BadGuy3 House,TESLA,256,126,112,64,None,1,0,1,0,0,None,None,None,0,0
+7=BadGuy3 House,TESLA,256,114,125,64,None,1,0,1,0,0,None,None,None,0,0
+8=BadGuy3 House,TESLA,256,114,119,64,None,1,0,1,0,0,None,None,None,0,0
+9=BadGuy3 House,TESLA,256,120,113,64,None,1,0,1,0,0,None,None,None,0,0
+10=BadGuy3 House,TESLA,256,126,113,64,None,1,0,1,0,0,None,None,None,0,0
 11=BadGuy1 House,YADUGG,256,125,110,0,None,1,0,1,0,0,None,None,None,1,0
 12=Civie1 House,CABHUT,256,119,65,64,None,1,0,1,0,0,None,None,None,0,0
 13=Civie1 House,CABHUT,256,113,69,64,None,1,0,1,0,0,None,None,None,0,0
@@ -4638,10 +4638,10 @@ DestroyableBridges=no
 5=BadGuy1 House,HARV,256,100,68,128,Harvest,None,0,-1,0,-1,1,0
 6=BadGuy1 House,MIND,256,79,131,64,Area Guard,None,0,-1,0,-1,1,0
 7=BadGuy1 House,GRAV,256,79,138,64,Guard,None,0,-1,0,-1,1,0
-8=BadGuy3 House,APOC,256,117,121,192,Guard,0A66D54C,200,-1,0,-1,1,0
-9=BadGuy3 House,APOC,256,117,123,192,Guard,0A66D12C,200,-1,0,-1,1,0
-10=BadGuy3 House,APOC,256,122,116,0,Guard,0A66D96C,200,-1,0,-1,1,0
-11=BadGuy3 House,APOC,256,124,116,0,Guard,0A66DBEC,200,-1,0,-1,1,0
+8=BadGuy3 House,YRAPOC,256,117,121,192,Guard,0A66D54C,200,-1,0,-1,1,0
+9=BadGuy3 House,YRAPOC,256,117,123,192,Guard,0A66D12C,200,-1,0,-1,1,0
+10=BadGuy3 House,YRAPOC,256,122,116,0,Guard,0A66D96C,200,-1,0,-1,1,0
+11=BadGuy3 House,YRAPOC,256,124,116,0,Guard,0A66DBEC,200,-1,0,-1,1,0
 12=BadGuy1 House,CAOS,256,101,109,224,Area Guard,None,0,-1,0,-1,1,0
 13=BadGuy1 House,CAOS,256,110,100,224,Area Guard,None,0,-1,0,-1,1,0
 14=BadGuy1 House,MIND,256,107,118,0,Area Guard,None,0,-1,0,-1,1,0

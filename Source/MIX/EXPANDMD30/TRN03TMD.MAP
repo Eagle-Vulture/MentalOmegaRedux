@@ -169,9 +169,6 @@ TechLevel=11
 [NACLON]
 TechLevel=11
 
-[YAINVIS]
-TechLevel=11
-
 [NGHT]
 TechLevel=11
 
@@ -248,6 +245,9 @@ ParentCountry=UriArmy
 TechLevel=11
 
 [YAGNTC]
+TechLevel=11
+
+[YAINVIS]
 TechLevel=11
 
 [YAPPET]
@@ -369,7 +369,7 @@ AreTeamMembersRecruitable=no
 
 [01000050]
 0=1,PCV
-1=2,SMIN
+1=2,SMIN_AF
 Name=MCV/SMIN
 Group=-1
 
@@ -1450,7 +1450,7 @@ PlayerControl=no
 34=Americans House,E1,256,127,67,0,Guard,64,None,0,-1,0,1,0
 35=Americans House,E1,256,128,67,1,Guard,64,None,0,-1,0,1,0
 36=Americans House,GGI,256,108,61,0,Guard,64,None,0,-1,0,1,0
-37=Americans House,GGI,256,133,73,1,Guard,64,None,0,-1,0,1,0
+37=Americans House,GGI,256,131,65,0,Guard,64,None,0,-1,0,1,0
 38=Americans House,GGI,256,133,52,0,Guard,64,None,0,-1,0,1,0
 39=Americans House,GGI,256,135,65,0,Guard,64,None,0,-1,0,1,0
 40=Americans House,GGI,256,133,65,2,Guard,64,None,0,-1,0,1,0
@@ -1465,21 +1465,21 @@ PlayerControl=no
 49=Neutral House,CIVA,256,69,107,1,Guard,64,None,0,-1,0,1,0
 50=Neutral House,CIVB,256,72,99,1,Guard,64,None,0,-1,0,1,0
 51=Neutral House,CIVC,256,65,99,1,Guard,64,None,0,-1,0,1,0
-52=YuriCountry House,YURI,256,23,96,0,Guard,64,None,0,-1,0,1,0
-53=YuriCountry House,YURI,256,24,77,0,Guard,64,None,0,-1,0,1,0
+52=YuriCountry House,YURI,256,30,85,0,Guard,64,None,0,-1,0,1,0
+53=YuriCountry House,YURI,256,32,85,0,Guard,64,None,0,-1,0,1,0
 54=Americans House,SNIPE,256,129,62,0,Guard,64,None,0,-1,0,1,0
 55=Americans House,SNIPE,256,81,44,1,Guard,64,None,0,-1,0,1,0
 56=Americans House,SNIPE,256,103,85,0,Guard,64,None,0,-1,0,1,0
 57=Americans House,ENGINEER,256,109,47,0,Guard,64,None,0,-1,0,1,0
 58=Americans House,ENGINEER,256,112,45,0,Guard,64,None,0,-1,0,1,0
 59=Americans House,ENGINEER,256,115,47,0,Guard,64,None,0,-1,0,1,0
-60=YuriCountry House,YURI,256,25,76,0,Guard,64,None,0,-1,0,1,0
-61=YuriCountry House,YURI,256,24,86,0,Guard,64,None,0,-1,0,1,0
-62=YuriCountry House,YURI,256,25,82,0,Guard,64,None,0,-1,0,1,0
-63=YuriCountry House,INTRUDER,256,24,79,1,Guard,64,None,0,-1,0,1,0
+60=YuriCountry House,YURI,256,26,81,0,Guard,64,None,0,-1,0,1,0
+61=YuriCountry House,YURI,256,27,80,0,Guard,64,None,0,-1,0,1,0
+62=YuriCountry House,YURI,256,29,83,0,Guard,64,None,0,-1,0,1,0
+63=YuriCountry House,INTRUDER,256,23,81,0,Guard,64,None,0,-1,0,1,0
 64=YuriCountry House,INTRUDER,256,24,81,1,Guard,64,None,0,-1,0,1,0
 65=YuriCountry House,INTRUDER,256,24,83,1,Guard,64,None,0,-1,0,1,0
-66=YuriCountry House,INTRUDER,256,24,85,1,Guard,64,None,0,-1,0,1,0
+66=YuriCountry House,INTRUDER,256,23,83,0,Guard,64,None,0,-1,0,1,0
 
 [IsoMapPack5]
 1=Wg4AIAVaAAEA+QEAAEAAA1kAAgDtAUMBAABaSQHwqQFbSQEESAEDAgAAWAAD4QRZKCkAWk
@@ -2827,9 +2827,10 @@ DestroyableBridges=no
 108=Neutral House,CAWASH03,256,125,46,64,None,1,0,1,0,0,None,None,None,0,0
 109=Americans House,GAPILL,256,107,64,64,None,1,0,1,0,0,None,None,None,1,0
 110=Americans House,GAPILL,256,115,69,64,None,1,0,1,0,0,None,None,None,1,0
-111=Americans House,CAMACH,256,103,70,64,None,1,0,1,0,0,None,None,None,0,0
+111=Americans House,CAMACH,256,65,85,64,None,1,0,1,0,0,None,None,None,0,0
 112=Americans House,CACOMN,256,70,85,64,None,1,0,1,0,0,None,None,None,0,0
-113=Neutral House,CANEWY21,256,63,86,64,None,1,0,1,0,0,None,None,None,0,0
+113=Neutral House,CAARMY01,256,133,69,64,None,1,0,1,0,0,None,None,None,0,0
+114=Neutral House,CAARMY01,256,117,69,64,None,1,0,1,0,0,None,None,None,0,0
 115=Americans House,GAGATE_C,256,130,51,64,None,1,0,1,0,0,None,None,None,0,0
 116=Americans House,GAGATE_D,256,124,61,64,None,1,0,1,0,0,None,None,None,1,0
 117=YuriCountry House,YABRCK,256,13,87,64,None,1,0,1,0,0,None,None,None,0,0
@@ -2844,9 +2845,7 @@ DestroyableBridges=no
 126=Americans House,GAPOWR,256,135,54,64,None,1,0,1,0,0,None,None,None,1,0
 127=Americans House,GAPOWR,256,138,55,64,None,1,0,1,0,0,None,None,None,1,0
 128=Americans House,GAPOWR,256,139,58,64,None,1,0,1,0,0,None,None,None,1,0
-129=Neutral House,CAARMY01,256,144,62,64,None,1,0,1,0,0,None,None,None,0,0
-130=Neutral House,CAARMY01,256,142,59,64,None,1,0,1,0,0,None,None,None,0,0
-131=Neutral House,CAARMY01,256,137,70,64,None,1,0,1,0,0,None,None,None,0,0
+129=Neutral House,CAARMY01,256,105,62,64,None,1,0,1,0,0,None,None,None,0,0
 135=Americans House,GAPILL,256,129,50,64,None,1,0,1,0,0,None,None,None,1,0
 136=Americans House,NASAM,256,125,73,160,None,1,0,1,0,0,None,None,None,1,0
 137=Americans House,NASAM,256,125,52,224,None,1,0,1,0,0,None,None,None,1,0
@@ -2863,7 +2862,6 @@ DestroyableBridges=no
 149=Neutral House,CANEWY20,256,95,70,64,None,1,0,1,0,0,None,None,None,0,0
 150=Neutral House,CANEWY20,256,99,70,64,None,1,0,1,0,0,None,None,None,0,0
 152=Neutral House,CANEWY21,256,96,76,64,None,1,0,1,0,0,None,None,None,0,0
-153=Neutral House,CANEWY21,256,63,89,64,None,1,0,1,0,0,None,None,None,0,0
 155=Neutral House,CANEWY20,256,126,68,64,None,1,0,1,0,0,None,None,None,0,0
 156=Neutral House,CANEWY11,256,66,107,64,None,1,0,1,0,0,None,None,None,0,0
 157=Neutral House,CANEWY11,256,66,104,64,None,1,0,1,0,0,None,None,None,0,0
@@ -3234,7 +3232,7 @@ DestroyableBridges=no
 27=Neutral House,CONA,256,111,53,96,Guard,None,0,-1,0,-1,1,0
 28=Americans House,StormLT,256,139,64,64,Area Guard,None,0,-1,0,-1,1,0
 29=Americans House,StormLT,256,139,62,32,Area Guard,None,0,-1,0,-1,1,0
-30=Americans House,StormLT,256,131,71,128,Area Guard,None,0,-1,0,-1,1,0
+30=Americans House,StormLT,256,131,67,128,Area Guard,None,0,-1,0,-1,1,0
 31=Americans House,StormLT,256,131,54,0,Area Guard,None,0,-1,0,-1,1,0
 32=Americans House,StormLT,256,127,62,192,Area Guard,None,0,-1,0,-1,1,0
 33=Americans House,ABRM,256,111,62,128,Sleep,None,0,-1,0,-1,1,0

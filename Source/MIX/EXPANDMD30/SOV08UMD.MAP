@@ -8,10 +8,6 @@ TechLevel=11
 [Aboreus]
 Value=50
 
-[yapsya3x3new]
-Power = 0
-Powered = false
-
 [Alliance]
 Name=Alliance
 Side=GDI
@@ -100,9 +96,6 @@ SensorsSight=10
 
 [CenturionCannon]
 Damage=275
-
-[CenturionCannonE]
-Damage=340
 
 [Confederation]
 Name=Confederation
@@ -233,6 +226,10 @@ Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=YuriCountry
+
+[yapsya3x3new]
+Power=0
+Powered=false
 
 
 [Preview]
@@ -1114,6 +1111,9 @@ NodeCount=0
 TechLevel=10
 PercentBuilt=100
 PlayerControl=no
+
+[CenturionCannonE]
+Damage=340
 
 [Confederation House]
 IQ=5

@@ -739,7 +739,8 @@ TransportsReturnOnUnload=no
 AreTeamMembersRecruitable=no
 
 [01000097]
-0=2,CARRIER
+0=1,CARRIER
+0=1,COM_CARRIER
 Name=AircraftCarriers
 Group=-1
 
@@ -4824,7 +4825,7 @@ DestroyableBridges=yes
 65=YuriCountry House,SQD,256,188,102,128,Guard,None,0,-1,0,-1,1,0
 66=YuriCountry House,SAPC2,256,164,114,192,Guard,None,0,-1,0,-1,1,0
 67=YuriCountry House,SAPC2,256,164,109,192,Guard,None,0,-1,0,-1,1,0
-68=YuriCountry House,DRED,256,183,130,192,Guard,None,555,-1,0,-1,1,0
+68=YuriCountry House,VLAD,256,183,130,192,Guard,None,555,-1,0,-1,1,0
 69=YuriCountry House,BSUB,256,182,134,192,Guard,None,555,-1,0,-1,1,0
 70=YuriCountry House,BSUB,256,182,126,192,Guard,None,555,-1,0,-1,1,0
 71=YuriCountry House,MBT,256,186,127,192,Guard,None,555,-1,0,-1,1,0
@@ -4833,7 +4834,7 @@ DestroyableBridges=yes
 74=YuriCountry House,SUB,256,182,128,192,Guard,None,555,-1,0,-1,1,0
 75=YuriCountry House,DEST,256,179,115,192,Guard,None,555,-1,0,-1,1,0
 76=YuriCountry House,HCRUIS,256,178,118,192,Guard,None,444,-1,0,-1,1,0
-77=YuriCountry House,CARRIER,256,178,140,192,Guard,None,444,-1,0,-1,1,0
+77=YuriCountry House,COM_CARRIER,256,178,140,192,Guard,None,444,-1,0,-1,1,0
 78=YuriCountry House,DEST,256,179,121,192,Guard,None,555,-1,0,-1,1,0
 79=YuriCountry House,DEST,256,177,137,192,Guard,None,555,-1,0,-1,1,0
 80=YuriCountry House,DEST,256,177,143,192,Guard,None,555,-1,0,-1,1,0
