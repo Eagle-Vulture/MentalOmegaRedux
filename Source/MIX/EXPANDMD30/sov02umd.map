@@ -17,9 +17,19 @@ Waypoint7=0,0
 Waypoint8=0,0
 NumberStartingPoints=0
 
+[General]
+AlliedCrew = E2
+SovietCrew = INIT
+ThirdCrew = INIT
+
+[YuriT55]
+Survivor.Side0 = MUMY
+Survivor.Side1 = MUMY
+Survivor.Side2 = MUMY
+
 [Alliance]
 Name=Alliance
-Side=GDI
+Side=Nod
 Color=AlliedLoad
 Prefix=G
 Suffix=Allied
@@ -29,7 +39,7 @@ ParentCountry=Alliance
 
 [Americans]
 Name=Americans
-Side=GDI
+Side=Nod
 Color=AlliedLoad
 Prefix=G
 Suffix=Allied
@@ -72,7 +82,7 @@ TiberiumDeathToVisceroid=no
 
 [British]
 Name=British
-Side=GDI
+Side=Nod
 Color=AlliedLoad
 Prefix=G
 Suffix=Allied
@@ -164,7 +174,7 @@ PixelSelectionBracketDelta=4
 
 [French]
 Name=French
-Side=GDI
+Side=Nod
 Color=AlliedLoad
 Prefix=G
 Suffix=Allied
@@ -187,7 +197,7 @@ ParentCountry=Germans
 
 [Germany]
 Name=Germany
-Side=GDI
+Side=Nod
 Color=AlliedLoad
 Prefix=G
 Suffix=Allied

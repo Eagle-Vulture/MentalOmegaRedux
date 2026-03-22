@@ -330,6 +330,8 @@ TechLevel=10
 PercentBuilt=100
 PlayerControl=no
 
+[CellTags]
+
 [China House]
 IQ=5
 Edge=North
@@ -5982,6 +5984,8 @@ DestroyableBridges=yes
 01000027=0,AI Auto Production Scorpion Force House,01000026
 01000029=0,AI Auto Production Civilian House,01000028
 01000031=0,AI Auto Production JP House,01000030
+
+[TeamTypes]
 
 [Terrain]
 178142=TIBTRE01

@@ -212,18 +212,23 @@ Suffix=Soviet
 SmartAI=yes
 CostUnitsMult=1
 ParentCountry=NorthKorea
+ 
+[RahnRailgun]
+Damage = 315
+ROF = 60
+Range = 13
+Speed = 300
+Projectile = RahnRailgunProj
+Warhead = RahnRailgunWH
 
-[RahnGrenadeE]
-ROF=70
-Range=12
-Damage=515
-
-[RahnRailgunE]
-ROF=45
-Range=12
-Speed=1
-Damage=550
-
+[RahnGrenade]
+Damage = 350
+ROF = 120
+Range = 13
+Projectile = RahnGrenadeP
+Speed = 100
+Warhead = RahnGrenadeWH
+ 
 [Russians]
 Name=Russians
 Side=Nod
