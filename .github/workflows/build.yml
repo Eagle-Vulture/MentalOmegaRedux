@@ -1,9 +1,9 @@
 name: Build Project
 
-on: 
+on:
+  workflow_dispatch:
   push:
     branches:
-      - master
       - main
 
 jobs:
@@ -12,16 +12,20 @@ jobs:
 
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v7
 
-    # Compile it via shitty .bat file
+    # Compile it via .bat file
     - name: Compile Project
       shell: cmd
       run: BuildProject.bat
 
+    # Compress with 7z
+    - name: Zip Artifact
+      run: 7z a -t7z -mx=9 -m0=lzma2 -ms=on -r -- MOR-${{ github.sha }}.7z ./build/*
+
     # Upload artifact to the GitHub
     - name: Upload Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
-        name: MOR-${{github.sha}}
-        path: Build/**
+        path: MOR-${{ github.sha }}.7z
+        archive: false

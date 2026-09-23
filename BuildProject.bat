@@ -1,9 +1,11 @@
 @echo off
+cd /d %~dp0
 chcp 65001 > nul
 echo Mental Omega Redux version 0.1 by Eagle-Vulture
 echo.
 
-set MIX=Tools\ccmix.exe
+set ar=ccmix.exe
+set MIX=Tools\%ar%
 set CSFTOOL=Tools\CSFTool.exe
 
 : Удаление ранее скомпилированной папки
@@ -32,9 +34,18 @@ echo.
 
 for /f "tokens=*" %%f in ('dir "Source\MIX\" /a:d /b') do (
 	echo Компилирование %%f.mix...
-	%MIX% --create --lmd --game=ra2 --dir "Source\MIX\%%f" --mix "Build\%%f.mix"
-	echo.
+	start /min "" %MIX% --create --lmd --game=ra2 --dir "Source\MIX\%%f" --mix "Build\%%f.mix"
 	)
+
+:repeat
+for /f %%N in ('tasklist /FI "IMAGENAME eq %ar%" /FO CSV /NH ^| find /I /C "%ar%"') do (
+	timeout /t 1 > nul
+	set "count=%%N"
+	)
+
+if %count% GTR 0 (
+	goto :repeat
+)
 
 echo Все MIX-архивы были собраны.
 
